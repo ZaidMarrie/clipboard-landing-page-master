@@ -1,0 +1,357 @@
+/* ====================
+Global Styles Starts Here
+==================== */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-clr-light: hsl(171, 66%, 44%);
+    --primary-clr-dark: hsl(233, 100%, 69%);
+    --neutral-clr-light: hsl(201, 11%, 66%);
+    --neutral-clr-dark: hsl(210, 10%, 33%);
+}
+
+body {
+    margin: 0;
+    font-size: 1.125rem;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: var(--neutral-clr-light);
+}
+
+h2, h3 {
+    font-weight: 600;
+    color: var(--neutral-clr-dark);
+}
+
+img {
+    width: 100%;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto .5em;
+    border: none;
+    border-bottom: 1px solid #A6A6A6;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ====================
+Global Styles Ends Here
+==================== */
+
+/* ====================
+Header Styles Starts Here
+==================== */
+
+.header {
+    padding: 7.5em 1.875em 10.3em;
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.header::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+
+#logo {
+    margin: 0 auto 2.8125em;
+    max-width: 8.125em;
+}
+
+.hero__title {
+    font-size: 1.5265rem;
+    font-weight: 600;
+    color: var(--neutral-clr-dark);
+}
+
+.hero__subtitle {
+    color: var(--neutral-clr-light);
+}
+
+.hero__buttons-container {
+    margin: 3.125em auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero__button {
+    padding: 1.25em 5em;
+    display: inline-block;
+    border-radius: 3em;
+    color: #FFFFFF;
+    transition: background 250ms ease-out;
+    margin-bottom: 1em;
+}
+
+.button-1 {
+    background-color: var(--primary-clr-light);
+}
+
+.button-1:hover {
+    background: hsl(171, 66%, 65%);
+}
+
+.button-2 {
+    background-color: var(--primary-clr-dark);
+}
+
+.button-2:hover {
+    background: hsl(233, 100%, 80%);
+}
+
+/* ====================
+Header Styles Ends Here
+==================== */
+
+/* ====================
+Main Content Styles Starts Here
+==================== */
+
+.main {
+    padding: 0 1.9em;
+}
+
+.main__section {
+    margin: 0 auto 10.9em;
+}
+
+.main__subsection {
+    margin: 0 auto 4.065em;
+}
+
+.main__subsection-content > article {
+    margin: 4.065em auto 0;
+}
+
+.main__section-2 {
+    margin: 0 auto 7.8125em;
+}
+
+.article-container {
+    margin: 4.065em auto;
+}
+
+.brands__icon-wrapper {
+    margin: 3.125em auto;
+    max-width: 9.375em;
+}
+
+.outro {
+    margin: 10.625em auto;
+}
+
+/* ====================
+Main Content Styles Ends Here
+==================== */
+
+/* ====================
+Footer Styles Starts Here
+==================== */
+
+.footer {
+    background: #EAEAEA;
+    color: var(--neutral-clr-dark);
+}
+
+.footer__row {
+    padding: 3.125em;
+}
+
+.footer__column:first-of-type {
+    max-width: 4.075em;
+    margin: 0 auto 2.5em;
+}
+
+.footer__column a {
+    cursor: pointer;
+    padding: 0.625em 0;
+    display: block;
+    transition: color 250ms ease-out;
+}
+
+.footer__column a:hover {
+    color: var(--primary-clr-light);
+}
+
+.social-icons {
+    margin: 1.25em auto;
+    display: inline-flex;
+}
+
+.social-icons a {
+    margin: 0 1em;
+}
+
+.fab {
+    color: var(--neutral-clr-dark);
+    transition: color 250ms ease-out;
+}
+
+.fab:hover {
+    color: var(--primary-clr-light);
+}
+
+.attribution { 
+    font-size: 0.7em;
+    text-align: center;
+    margin: 0;
+    padding: 0 .5em;
+    color: var(--neutral-clr-light);
+}
+
+.attribution__links { 
+    color: var(--primary-clr-dark); 
+    transition: color 250ms ease-out;
+}
+
+.attribution__links:hover { 
+    color: var(--primary-clr-light); 
+}
+
+/* ====================
+Footer Styles Ends Here
+==================== */
+
+/* ====================
+Media Queries For Larger Screens Starts Here
+==================== */
+
+/* padding on main r/l is 160px */
+
+
+@media only screen and (min-width: 42.1875em) {
+    
+    .header {
+        background-image: url(images/bg-header-desktop.png);
+    }
+    
+    .hero__title,
+    .hero__subtitle {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 43.75em;
+    }
+    
+    .hero__button {
+        margin-bottom: 0;
+    }
+    
+    .button-1 {
+        margin-right: 1em;
+    }
+    
+    .outro,
+    .main__section-heading,
+    .main__section-desc,
+    .section-2__main-article {
+        max-width: 43.75em;
+    }
+    
+    .main__section-desc {
+        margin: 0 auto 3em;
+        
+    }
+    
+    .section-2__main-article {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .brands {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+@media only screen and (min-width: 56.25em) {
+    
+    .main {
+        padding: 0 3.5em;
+    }
+    
+    .subsection-flex {
+        display: flex;
+    }
+    
+    .wrapper-for-pc {
+        margin: 0;
+        transform: translateX(-30%);
+    }
+    
+    .subsection-content-1 {
+        margin-left: .5em;
+    }
+    
+    .subsection-content-1 > article {
+        text-align: left;
+        max-width: 300px;
+        margin: 1.5em 0 1em;
+    }
+    
+    .article-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .article-container > article {
+        max-width: 18em;
+        flex: 1 1 18em;
+    }
+    
+    .img-wrapper {
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .footer__row {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+    }
+    
+    
+    .footer__column:nth-child(1) {
+        margin: 0 auto 0 0;
+    }
+    
+    .footer__column:nth-child(4) {
+        margin: 0 auto 0 0;
+    }
+    
+    .footer__column:not(:first-child) {
+        margin-left: 3.125em;
+    }
+     
+    .social-icons {
+        margin: 0 0 0 auto;
+        align-self: center;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 62.5em) {
+    
+    .main {
+        padding: 0 7em;
+    }
+}
