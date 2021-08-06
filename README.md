@@ -25,12 +25,14 @@ Users should be able to:
 
 ### Screenshot
 
+![Screenshot 2021-08-06 at 15-32-24 Frontend Mentor Clipboard landing page](https://user-images.githubusercontent.com/84665360/128518316-e7143c22-5a04-4d3b-a4a7-1f6bb93734a5.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [My Solution](https://www.frontendmentor.io/solutions/clipboard-landing-page-c2ACbjoJL![Screenshot 2021-08-06 at 15-32-24 Frontend Mentor Clipboard landing page](https://user-images.githubusercontent.com/84665360/128518125-9bddf456-fbaa-49b2-97ba-c5bfef0d6a45.png)
+)
+- [Live Site Demo](https://zaidmarrie.github.io/clipboard-landing-page-master/)
 
 ## My process
 
