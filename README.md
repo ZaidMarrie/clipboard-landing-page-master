@@ -30,8 +30,7 @@ Users should be able to:
 
 ### Links
 
-- [My Solution](https://www.frontendmentor.io/solutions/clipboard-landing-page-c2ACbjoJL![Screenshot 2021-08-06 at 15-32-24 Frontend Mentor Clipboard landing page](https://user-images.githubusercontent.com/84665360/128518125-9bddf456-fbaa-49b2-97ba-c5bfef0d6a45.png)
-)
+- [My Solution](https://www.frontendmentor.io/solutions/clipboard-landing-page-c2ACbjoJL)
 - [Live Site Demo](https://zaidmarrie.github.io/clipboard-landing-page-master/)
 
 ## My process
